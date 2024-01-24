@@ -5,13 +5,13 @@ import warnings
 # To not see the warning when you calculate CA distances using MDAnalaysis
 warnings.filterwarnings("ignore")
 
-from new_fns import concatenate_WE_data, \
-                    stratified_clustering_return_Kmeans, \
-                    get_fluxMatrix, \
-                    get_Tmatrix, \
-                    train_dimreduce_start, \
-                    train_dimreduce_continue, \
-                    solve_discrepancy
+from haMSM_functions import concatenate_WE_data, \
+                            stratified_clustering_return_Kmeans, \
+                            get_fluxMatrix, \
+                            get_Tmatrix, \
+                            train_dimreduce_start, \
+                            train_dimreduce_continue, \
+                            solve_discrepancy
 
 ####################################################################################################
 ####################################################################################################
