@@ -1,6 +1,7 @@
 Each folder contains all the data / functions / conda environment needed to perform various steps in the WE variance minimization pipeline. 
 
 The schematic of the WE variance optimization is outlined below: 
+
 <img width="6173" height="1883" alt="WE-optimization-scheme" src="https://github.com/user-attachments/assets/7995e973-79d7-46cd-a308-481dfd5ac1f0" />
 
 For details of the project, please see our preprint. To be published at Journal of Chemical Theory and Computation. 
