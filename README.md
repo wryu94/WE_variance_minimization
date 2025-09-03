@@ -5,3 +5,5 @@ This repository contains an updated haMSM (history augmented Markov state model)
 - `reference.pdb` contains a reference (folded) structure of the NTL9 protein. 
 
 <img width="6173" height="1883" alt="WE-optimization-scheme" src="https://github.com/user-attachments/assets/7995e973-79d7-46cd-a308-481dfd5ac1f0" />
+
+https://arxiv.org/abs/2504.21663
