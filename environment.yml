@@ -1,0 +1,15 @@
+name: variance_min
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - python=3.10
+  - numpy[version='<1.24']
+  - scikit-learn
+  - deeptime
+  - mdtraj[version='<=1.9.7']
+  - westpa
+  - ambertools
+  - mdanalysis
+prefix: /home/exacloud/gscratch/ZuckermanLab/ryuwo/miniconda3/envs/variance_min
