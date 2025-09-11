@@ -19,3 +19,6 @@ https://arxiv.org/abs/2504.21663
   - In this folder, you can run optimized binning WE.
   - Due to technical issues, I set the bin assignment as the second pcoord. The optimal binning is calculated at ref_files/get_pcoord_and_bin_init.py and ref_files/get_pcoord_and_bin_run.py.
   - Original implementation was to launch these optimal bin assignment scripts for each segment after the dynamics steps were run. However, the walltime became too long as you had to repeatedly launch Python environments and read in the haMSM models. As a workaround, I've implemented a server-client solution. The haMSM models and the optimal bin assignment function is stored in the server at server.py. The server is launched before starting the WE runs (as in 1_init_and_run.slurm and 2_continue_run.slurm). Then the ref_files/get_pcoord_and_bin_init.py and ref_files/get_pcoord_and_bin_run.py are the client scripts that uses the function from the server script throughout the WE simulation. While this is not the smoothest implementation, the simulations run a lot faster (as fast as unoptimized, if not slightly faster) as we have removed the environment setup and file IO overhead.
+
+- Variance minimization calculation
+  - Jupyter notebook, pdf that outlines variance constant for a given estimate of π, h, and v, and example data.   
